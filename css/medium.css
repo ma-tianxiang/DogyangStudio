@@ -1,0 +1,59 @@
+/* medium适配 */
+.teammember .member{
+	width: 50%;
+	cursor: pointer;
+	height: 185px;
+}
+.teammember .member img{
+	width: 90px;
+	height: 90px;
+}
+.teammember .member i{
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-color: blue;
+	position: absolute;
+	left: 90px;
+	top:  90px;
+}
+.teammember .member:hover #block{
+	left:75px;
+	top: 75px;
+}
+#member-introduction #member-name{
+	margin:80px 0px 0px 0px;
+    padding-left: 15px;
+	text-align: left;
+	font-family: 'PingFangSC-Regular';
+	font-size: 16px;
+	color: #9ea39cf8;
+}
+/* event项目适配 */
+#qrcode{
+	width: 50%;
+}
+#events-text{
+	width: 50%;
+}
+#events-text img{
+	width: 120px;
+	height: 120px;
+}
+#events-text #text-first{
+	font-size: 16px;
+	padding-right: 140px;
+}
+#img i{
+	width: 20px;
+	height: 20px;
+	top: 120px;
+	right: 120px;
+}
+#events-text :hover i{
+	top: 100px;
+	right: 100px;
+}
+#events-text #text-second{
+	margin-top: 5px;
+}

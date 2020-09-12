@@ -1,0 +1,90 @@
+/* 移动iphone端适配 */
+a{
+    font-size: 12px;
+  }
+.header{
+	height: 105px;
+}
+.header #headertext{
+	flex:1;
+	line-height: 50px;
+}
+.header #logo img{
+	display: block;
+	margin-top: 10px;
+	height: 30px;
+}
+#music{
+	border-radius: 0 0 4px 4px;
+}
+#teamlogo i{
+	font-size: 20px;
+	color:#080821;
+}
+.team #teamcontent{
+	display: flex;
+	height: 40px;
+	margin-top: -15px;
+}
+/* events适配 */
+#qrcode{
+	width: 100%;
+}
+#events-text{
+	width: 100%;
+}
+#qrcode img{
+	height: 200px;
+}
+#events-box{
+	height: 400px;
+}
+#events-text img{
+	width: 100px;
+	height: 100px;
+}
+#events-text #text-first{
+	font-size: 16px;
+	padding-right: 120px;
+}
+#img i{
+	width: 20px;
+	height: 20px;
+	top: 100px;
+	right: 100px;
+}
+#events-text :hover i{
+	top: 80px;
+	right: 80px;
+}
+#events-text #text-second{
+	margin-top: 5px;
+}
+/* 关于方向适配 */
+#target-text{
+	height: 420px;
+	flex-wrap: wrap;
+}
+.right-zoom img{
+	width:100%;
+	height: 200px;
+}
+.marqueebox {
+	font-size: 0.8rem;
+}
+.left-zoom{
+	width: 100%;
+}
+.right-zoom{
+	width: 100%;
+}
+#events-content{
+	margin-top:-15px ;
+}
+#target-content{
+	margin-top: -15px;
+}
+/* footer适配*/
+#footer-content{
+	margin-top: -15px;
+}

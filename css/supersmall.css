@@ -1,0 +1,19 @@
+/* 移动iphone端适配 */
+.iconfont{
+    font-size: 12px;
+}
+.header{
+    height: 98px;
+}
+.header #headertext{
+	flex:1;
+	line-height: 40px;
+}
+.header #logo img{
+	display: block;
+	margin-top: 7px;
+	height: 25px;
+}	
+#music{
+		border-radius: 0 0 4px 4px;
+	}

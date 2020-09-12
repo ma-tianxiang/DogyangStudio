@@ -214,6 +214,7 @@ audio:hover{
 }
 #events-text{
 	width:40%;
+	border-radius: 3px;
 }
 #img{
 	position: relative;
@@ -307,6 +308,7 @@ audio:hover{
 	display: flex;
 	flex-direction: column;
 	background: #080821;
+	margin-top: 10px;
 }
 #contact-us{
 	display: flex;
